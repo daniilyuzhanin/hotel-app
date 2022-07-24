@@ -1,3 +1,3 @@
-import React from 'react';
+import { Router } from 'common/components/Router';
 
-export const App = () => (<div>Ola!</div>);
+export const App = () => (<Router />);
