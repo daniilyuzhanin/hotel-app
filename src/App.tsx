@@ -25,6 +25,12 @@ const theme = createTheme({
     button: {
       textTransform: 'none',
     },
+    subtitle1: {
+      fontSIze: 19,
+      fontWeight: 500,
+      lineHeight: '19px',
+      color: '#424242',
+    },
   },
 });
 

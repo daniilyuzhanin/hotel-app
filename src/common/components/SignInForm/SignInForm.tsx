@@ -5,10 +5,10 @@ import {
   TextField,
   FormHelperText,
 } from '@mui/material';
+import { validationSchema } from 'common/components/SignInForm';
 import { useFormik } from 'formik';
 import { ChangeEventHandler } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { validationSchema } from 'common/components/SignInForm';
 
 export type OnSubmitFormTest = {
   onSubmit?: ChangeEventHandler<HTMLButtonElement>;
@@ -25,7 +25,7 @@ export const SignInForm = () => {
     },
     validationSchema,
     onSubmit: (values) => {
-      navigate('/');
+      navigate('/productPage');
     },
   });
 
