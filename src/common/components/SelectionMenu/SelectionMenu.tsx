@@ -8,6 +8,7 @@ export const SelectionMenu = () => (
   <Grid
     container
     direction="column"
+    mb={12}
     sx={{
       width: 360,
       height: 410,

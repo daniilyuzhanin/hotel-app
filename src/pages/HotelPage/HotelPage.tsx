@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material';
+import { Favorites } from 'common/components/Favorites';
 import { Header } from 'common/components/Header';
 import { SelectionMenu } from 'common/components/SelectionMenu';
 
@@ -24,12 +25,10 @@ export const HotelPage = () => (
         sx={{ maxWidth: 360 }}
       >
 
-        <Grid item pb={12}>
-          <SelectionMenu />
-        </Grid>
+        <SelectionMenu />
 
         <Grid item>
-          Favorite
+          <Favorites />
         </Grid>
 
       </Grid>
